@@ -1,5 +1,7 @@
 //Здесь был Даня
 
+
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +19,8 @@ namespace ConsoleApplication1
             // Use a switch statement to do the math.
             switch (op)
             {
+
+                    
                 case "a":
                     result = num1 + num2;
                     break;
@@ -59,7 +63,7 @@ namespace ConsoleApplication1
                 string numInput1 = "";
                 string numInput2 = "";
                 double result = 0;
-
+                double number;
                 // Ask the user to type the first number.
                 Console.Write("Type a number, and then press Enter: ");
                 numInput1 = Console.ReadLine();
@@ -125,4 +129,5 @@ namespace ConsoleApplication1
         }
     }
 }
+
 
